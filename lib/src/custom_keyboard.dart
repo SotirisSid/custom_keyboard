@@ -46,12 +46,7 @@ class _CustomKeyboardState extends State<CustomKeyboard> {
     });
   }
 
-   void updateInputValue(String value) {
-    setState(() {
-      inputValue = value;
-      widget.controller.text = value;
-    });
-  }
+   
 
   // * this if shift is pressed
   bool isShiftPressed = false;
