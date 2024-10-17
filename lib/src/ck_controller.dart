@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class CKController extends ChangeNotifier {
   String initialValue = "";
+  String text = "";
 
   void reset() {
     initialValue = "";
