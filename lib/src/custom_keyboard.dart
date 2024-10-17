@@ -46,7 +46,7 @@ class _CustomKeyboardState extends State<CustomKeyboard> {
     });
   }
 
-  void updateInputValue(String value) {
+  static void updateInputValue(String value) {
     setState(() {
       inputValue = value;
       widget.controller.text = value;
