@@ -7,4 +7,10 @@ class CKController extends ChangeNotifier {
     initialValue = "";
     notifyListeners();
   }
+
+  // Method to update initialValue
+  void updateValue(String newValue) {
+    initialValue = newValue;
+    notifyListeners(); // Notify listeners of the change
+  }
 }
